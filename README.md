@@ -1,3 +1,12 @@
+## rchaseio fork
+
+* There appears to be a bug that affects AWS accounts that start with a 0.  
+* An issue has been opened here:  https://github.com/manheim/manheim-c7n-tools/issues/18
+* In the meantime - this repo is a fork of the manheim tools repo
+* Only change is this repo so far is to treat account_id as a string rather than a number to work around this problem.
+
+---
+
 manheim-c7n-tools
 =================
 
