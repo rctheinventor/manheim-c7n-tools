@@ -40,7 +40,7 @@ MANHEIM_CONFIG_SCHEMA = {
     ],
     'properties': {
         # The AWS Account ID number
-        'account_id': {'type': 'number'},
+        'account_id': {'type': 'string'},
         # The AWS account name (should be the official Account Alias)
         'account_name': {'type': 'string'},
         # Optional configuration for a role to assume when running this
